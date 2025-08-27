@@ -38,7 +38,9 @@ img{
 }
 
 .container{
-    max-width: 1140px;
+    box-sizing: border-box;
+
+    max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
@@ -98,8 +100,6 @@ img{
     opacity: 1;
 }
 
-.main {
-}
 
 /* Приветственная секция */
 
@@ -116,10 +116,6 @@ img{
 
 .welcome_text{
     width: 550px;
-}
-
-.container {
-
 }
 
 .welcome_subtitle {
@@ -151,9 +147,6 @@ img{
     gap: 40px 10px;
 }
 
-.container {
-
-}
 
 .food-list_card {
     width: 260px;
@@ -183,4 +176,58 @@ img{
 .food-list_desc {
     font-size: 16px;
     opacity: 0.7;
+}
+
+/* order */
+
+.order {
+    background: #312f30;
+    padding: 60px 0;
+}
+
+.order .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 90px;
+}
+
+.order_img {
+    max-width: 470px;
+}
+
+.order_text {
+    max-width: 360px;
+}
+
+.order_title {
+    margin-bottom: 25px;
+    font-size: 44px;
+}
+
+.order_desc {
+    margin-bottom: 15px;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.order_price {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #f6762c;
+}
+
+.order_price--old {
+    font-size: 16px;
+    text-decoration-line: line-through ;
+    opacity: 0.5;
+}
+
+.order_price + .order_price{
+    margin-left: 3px;
+}
+
+.order .btn {
+    margin-top: 10px;
 }
