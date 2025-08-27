@@ -330,10 +330,6 @@ img{
 
 }
 
-.feedback_img {
-
-}
-
 .feedback_text {
     margin: 0;
     text-align: center;
@@ -363,4 +359,25 @@ img{
     font-size: 12px;
     opacity: 0.7;
     display: block;
+}
+
+/* загрузка */
+
+.download {
+    background:#312f30;
+    padding: 60px 0;
+}
+
+.download .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.download_title {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.btn {
+
 }
