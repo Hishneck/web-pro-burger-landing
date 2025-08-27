@@ -68,6 +68,14 @@ img{
     opacity: 0.8;
 }
 
+
+.btn--small {
+    width: 140px;
+    height: 40px;
+
+    font-size: 12px;
+}
+
 /* шапка */
 
 .header {
@@ -230,4 +238,84 @@ img{
 
 .order .btn {
     margin-top: 10px;
+}
+
+/* продукты */
+
+.product {
+    padding: 150px 0;
+}
+
+.product .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.product_card {
+    box-sizing: border-box;
+
+    width: 555px;
+    min-height: 300px;
+
+    padding: 60px 30px 60px 290px;
+    background-color: #545454;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product_card:nth-child(even){
+    padding-left: 30px;
+    padding-right: 290px;
+}
+
+.product_title {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.product_desc {
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.product_price {
+    font-weight: 500px;
+    letter-spacing: 0.1;
+    color: #f6762c;
+}
+
+.product_price +.product_price{
+    margin-left: 5px;
+}
+
+.product_price--old{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.product .btn{
+    margin-top: 10px;
+}
+
+.card-queen{
+    background-image: url(./images/product-1.jpg);
+
+}
+
+.card-hut{
+    background-image: url(./images/product-2.jpg);
+
+}
+
+.card-king{
+    background-image: url(./images/product-3.jpg);
+
+}
+
+.card-papa{
+    background-image: url(./images/product-4.jpg);
+
 }
