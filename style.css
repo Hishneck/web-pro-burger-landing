@@ -302,20 +302,65 @@ img{
 
 .card-queen{
     background-image: url(./images/product-1.jpg);
-
 }
 
 .card-hut{
     background-image: url(./images/product-2.jpg);
-
 }
 
 .card-king{
     background-image: url(./images/product-3.jpg);
-
 }
 
 .card-papa{
     background-image: url(./images/product-4.jpg);
+}
 
+/* Отзывы */
+
+.feedback {
+    padding-bottom: 200px;
+}
+
+.feedback .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 880px;
+
+}
+
+.feedback_img {
+
+}
+
+.feedback_text {
+    margin: 0;
+    text-align: center;
+    width: 370px;
+ 
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.feedback_text::before{
+    content: url(/images/icons/quote.svg);
+}
+
+.feedback_desc {
+    opacity: 0.7;
+    margin: 30px 0; 
+}
+
+.feedback_author {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.feedback_subauthor {
+    font-weight: 500;
+    font-size: 12px;
+    opacity: 0.7;
+    display: block;
 }
